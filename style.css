@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstDiv {
+    background: url('images/pexels-kelianpfl-7367730.jpg');
+    background-size: cover;
+}
+.oly{
+    margin-top: -50px;
+    margin-left: -40px;
+}
+.secondDiv {
+    background: #D9B99F;
+}
+
+.error {
+    display: none;
+}
+.tabili {
+    height: 35vh;
+    overflow-y: auto;
+}
+@media screen and (max-width: 800px){
+    .firstDiv {
+        background: url('images/pexels-kelianpfl-7367730.jpg');
+        background-size: cover;
+        height: 100vh;
+    }
+    .oly{
+        margin-top: -15px;
+        margin-left: -13px;
+    }
+    
+}
